@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46B985701976ECDC009A273D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B9856F1976ECDC009A273D /* Foundation.framework */; };
+		46B985721976ECDC009A273D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B985711976ECDC009A273D /* CoreGraphics.framework */; };
+		46B985741976ECDC009A273D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B985731976ECDC009A273D /* UIKit.framework */; };
+		46B985891976ECDC009A273D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B985881976ECDC009A273D /* XCTest.framework */; };
+		46B9858A1976ECDC009A273D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B9856F1976ECDC009A273D /* Foundation.framework */; };
+		46B9858B1976ECDC009A273D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B985731976ECDC009A273D /* UIKit.framework */; };
+		46BEA72B19828F21004F2FDF /* CountingLabel-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46BEA71419828F21004F2FDF /* CountingLabel-Info.plist */; };
+		46BEA72C19828F21004F2FDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46BEA71619828F21004F2FDF /* InfoPlist.strings */; };
+		46BEA72D19828F21004F2FDF /* GSQMediaTimingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BEA71919828F21004F2FDF /* GSQMediaTimingFunction.m */; };
+		46BEA72E19828F21004F2FDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BEA71A19828F21004F2FDF /* Images.xcassets */; };
+		46BEA72F19828F21004F2FDF /* LLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BEA71C19828F21004F2FDF /* LLAppDelegate.m */; };
+		46BEA73019828F21004F2FDF /* LLCountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BEA71E19828F21004F2FDF /* LLCountingLabel.m */; };
+		46BEA73119828F21004F2FDF /* LLTimedAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BEA72019828F21004F2FDF /* LLTimedAnimation.m */; };
+		46BEA73219828F21004F2FDF /* LLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BEA72219828F21004F2FDF /* LLViewController.m */; };
+		46BEA73319828F21004F2FDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BEA72319828F21004F2FDF /* main.m */; };
+		46BEA73419828F21004F2FDF /* UIView+LLViewAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BEA72519828F21004F2FDF /* UIView+LLViewAnimations.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46B9858C1976ECDC009A273D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46B985641976ECDC009A273D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46B9856B1976ECDC009A273D;
+			remoteInfo = CoutingLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46B9856C1976ECDC009A273D /* CountingLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountingLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B9856F1976ECDC009A273D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		46B985711976ECDC009A273D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		46B985731976ECDC009A273D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		46B985871976ECDC009A273D /* CountingLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountingLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B985881976ECDC009A273D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		46BEA71419828F21004F2FDF /* CountingLabel-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CountingLabel-Info.plist"; sourceTree = "<group>"; };
+		46BEA71519828F21004F2FDF /* CountingLabel-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CountingLabel-Prefix.pch"; sourceTree = "<group>"; };
+		46BEA71719828F21004F2FDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		46BEA71819828F21004F2FDF /* GSQMediaTimingFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSQMediaTimingFunction.h; sourceTree = "<group>"; };
+		46BEA71919828F21004F2FDF /* GSQMediaTimingFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSQMediaTimingFunction.m; sourceTree = "<group>"; };
+		46BEA71A19828F21004F2FDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		46BEA71B19828F21004F2FDF /* LLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAppDelegate.h; sourceTree = "<group>"; };
+		46BEA71C19828F21004F2FDF /* LLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAppDelegate.m; sourceTree = "<group>"; };
+		46BEA71D19828F21004F2FDF /* LLCountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCountingLabel.h; sourceTree = "<group>"; };
+		46BEA71E19828F21004F2FDF /* LLCountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCountingLabel.m; sourceTree = "<group>"; };
+		46BEA71F19828F21004F2FDF /* LLTimedAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTimedAnimation.h; sourceTree = "<group>"; };
+		46BEA72019828F21004F2FDF /* LLTimedAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTimedAnimation.m; sourceTree = "<group>"; };
+		46BEA72119828F21004F2FDF /* LLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLViewController.h; sourceTree = "<group>"; };
+		46BEA72219828F21004F2FDF /* LLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLViewController.m; sourceTree = "<group>"; };
+		46BEA72319828F21004F2FDF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46BEA72419828F21004F2FDF /* UIView+LLViewAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LLViewAnimations.h"; sourceTree = "<group>"; };
+		46BEA72519828F21004F2FDF /* UIView+LLViewAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LLViewAnimations.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46B985691976ECDC009A273D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B985721976ECDC009A273D /* CoreGraphics.framework in Frameworks */,
+				46B985741976ECDC009A273D /* UIKit.framework in Frameworks */,
+				46B985701976ECDC009A273D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B985841976ECDC009A273D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B985891976ECDC009A273D /* XCTest.framework in Frameworks */,
+				46B9858B1976ECDC009A273D /* UIKit.framework in Frameworks */,
+				46B9858A1976ECDC009A273D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46B985631976ECDC009A273D = {
+			isa = PBXGroup;
+			children = (
+				46B9856E1976ECDC009A273D /* Frameworks */,
+				46B9856D1976ECDC009A273D /* Products */,
+				46BEA71319828F21004F2FDF /* CountingLabel */,
+			);
+			sourceTree = "<group>";
+		};
+		46B9856D1976ECDC009A273D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46B9856C1976ECDC009A273D /* CountingLabel.app */,
+				46B985871976ECDC009A273D /* CountingLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46B9856E1976ECDC009A273D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46B9856F1976ECDC009A273D /* Foundation.framework */,
+				46B985711976ECDC009A273D /* CoreGraphics.framework */,
+				46B985731976ECDC009A273D /* UIKit.framework */,
+				46B985881976ECDC009A273D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46BEA71319828F21004F2FDF /* CountingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				46BEA71419828F21004F2FDF /* CountingLabel-Info.plist */,
+				46BEA71519828F21004F2FDF /* CountingLabel-Prefix.pch */,
+				46BEA71619828F21004F2FDF /* InfoPlist.strings */,
+				46BEA71819828F21004F2FDF /* GSQMediaTimingFunction.h */,
+				46BEA71919828F21004F2FDF /* GSQMediaTimingFunction.m */,
+				46BEA71A19828F21004F2FDF /* Images.xcassets */,
+				46BEA71B19828F21004F2FDF /* LLAppDelegate.h */,
+				46BEA71C19828F21004F2FDF /* LLAppDelegate.m */,
+				46BEA71D19828F21004F2FDF /* LLCountingLabel.h */,
+				46BEA71E19828F21004F2FDF /* LLCountingLabel.m */,
+				46BEA71F19828F21004F2FDF /* LLTimedAnimation.h */,
+				46BEA72019828F21004F2FDF /* LLTimedAnimation.m */,
+				46BEA72119828F21004F2FDF /* LLViewController.h */,
+				46BEA72219828F21004F2FDF /* LLViewController.m */,
+				46BEA72319828F21004F2FDF /* main.m */,
+				46BEA72419828F21004F2FDF /* UIView+LLViewAnimations.h */,
+				46BEA72519828F21004F2FDF /* UIView+LLViewAnimations.m */,
+			);
+			path = CountingLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46B9856B1976ECDC009A273D /* CountingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46B985981976ECDC009A273D /* Build configuration list for PBXNativeTarget "CountingLabel" */;
+			buildPhases = (
+				46B985681976ECDC009A273D /* Sources */,
+				46B985691976ECDC009A273D /* Frameworks */,
+				46B9856A1976ECDC009A273D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountingLabel;
+			productName = CoutingLabel;
+			productReference = 46B9856C1976ECDC009A273D /* CountingLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46B985861976ECDC009A273D /* CountingLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46B9859B1976ECDC009A273D /* Build configuration list for PBXNativeTarget "CountingLabelTests" */;
+			buildPhases = (
+				46B985831976ECDC009A273D /* Sources */,
+				46B985841976ECDC009A273D /* Frameworks */,
+				46B985851976ECDC009A273D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46B9858D1976ECDC009A273D /* PBXTargetDependency */,
+			);
+			name = CountingLabelTests;
+			productName = CoutingLabelTests;
+			productReference = 46B985871976ECDC009A273D /* CountingLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46B985641976ECDC009A273D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LL;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					46B985861976ECDC009A273D = {
+						TestTargetID = 46B9856B1976ECDC009A273D;
+					};
+				};
+			};
+			buildConfigurationList = 46B985671976ECDC009A273D /* Build configuration list for PBXProject "CountingLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 46B985631976ECDC009A273D;
+			productRefGroup = 46B9856D1976ECDC009A273D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46B9856B1976ECDC009A273D /* CountingLabel */,
+				46B985861976ECDC009A273D /* CountingLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46B9856A1976ECDC009A273D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BEA72E19828F21004F2FDF /* Images.xcassets in Resources */,
+				46BEA72B19828F21004F2FDF /* CountingLabel-Info.plist in Resources */,
+				46BEA72C19828F21004F2FDF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B985851976ECDC009A273D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46B985681976ECDC009A273D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BEA73419828F21004F2FDF /* UIView+LLViewAnimations.m in Sources */,
+				46BEA73119828F21004F2FDF /* LLTimedAnimation.m in Sources */,
+				46BEA72F19828F21004F2FDF /* LLAppDelegate.m in Sources */,
+				46BEA73219828F21004F2FDF /* LLViewController.m in Sources */,
+				46BEA72D19828F21004F2FDF /* GSQMediaTimingFunction.m in Sources */,
+				46BEA73319828F21004F2FDF /* main.m in Sources */,
+				46BEA73019828F21004F2FDF /* LLCountingLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B985831976ECDC009A273D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46B9858D1976ECDC009A273D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46B9856B1976ECDC009A273D /* CountingLabel */;
+			targetProxy = 46B9858C1976ECDC009A273D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46BEA71619828F21004F2FDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46BEA71719828F21004F2FDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46B985961976ECDC009A273D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46B985971976ECDC009A273D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46B985991976ECDC009A273D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CountingLabel/CountingLabel-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/CountingLabel/CountingLabel-Info.plist";
+				PRODUCT_NAME = CountingLabel;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		46B9859A1976ECDC009A273D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CountingLabel/CountingLabel-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/CountingLabel/CountingLabel-Info.plist";
+				PRODUCT_NAME = CountingLabel;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		46B9859C1976ECDC009A273D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoutingLabel.app/CoutingLabel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoutingLabel/CoutingLabel-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CoutingLabelTests/CountingLabelTests-Info.plist";
+				PRODUCT_NAME = CountingLabelTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		46B9859D1976ECDC009A273D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoutingLabel.app/CoutingLabel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoutingLabel/CoutingLabel-Prefix.pch";
+				INFOPLIST_FILE = "CoutingLabelTests/CountingLabelTests-Info.plist";
+				PRODUCT_NAME = CountingLabelTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46B985671976ECDC009A273D /* Build configuration list for PBXProject "CountingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B985961976ECDC009A273D /* Debug */,
+				46B985971976ECDC009A273D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46B985981976ECDC009A273D /* Build configuration list for PBXNativeTarget "CountingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B985991976ECDC009A273D /* Debug */,
+				46B9859A1976ECDC009A273D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46B9859B1976ECDC009A273D /* Build configuration list for PBXNativeTarget "CountingLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B9859C1976ECDC009A273D /* Debug */,
+				46B9859D1976ECDC009A273D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46B985641976ECDC009A273D /* Project object */;
+}
